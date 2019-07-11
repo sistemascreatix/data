@@ -1,0 +1,978 @@
+[
+  {
+    " NOMBRE": " AFGHANISTAN",
+    "CODIGO": "AF"
+  },
+  {
+    " NOMBRE": " ALAND ISLANDS",
+    "CODIGO": "AX"
+  },
+  {
+    " NOMBRE": " ALBANIA",
+    "CODIGO": "AL"
+  },
+  {
+    " NOMBRE": " ALEMANIA",
+    "CODIGO": "DE"
+  },
+  {
+    " NOMBRE": " ALGERIA",
+    "CODIGO": "DZ"
+  },
+  {
+    " NOMBRE": " AMERICAN SAMOA",
+    "CODIGO": "AS"
+  },
+  {
+    " NOMBRE": " ANDORRA",
+    "CODIGO": "AD"
+  },
+  {
+    " NOMBRE": " ANGOLA",
+    "CODIGO": "AO"
+  },
+  {
+    " NOMBRE": " ANGUILLA",
+    "CODIGO": "AI"
+  },
+  {
+    " NOMBRE": " ANTARCTICA",
+    "CODIGO": "AQ"
+  },
+  {
+    " NOMBRE": " ANTIGUA Y BARBUDA",
+    "CODIGO": "AG"
+  },
+  {
+    " NOMBRE": " ARABIA SAUDITA",
+    "CODIGO": "SA"
+  },
+  {
+    " NOMBRE": " ARGENTINA",
+    "CODIGO": "AR"
+  },
+  {
+    " NOMBRE": " ARMENIA",
+    "CODIGO": "AM"
+  },
+  {
+    " NOMBRE": " ARUBA",
+    "CODIGO": "AW"
+  },
+  {
+    " NOMBRE": " ASIA / REGION PACIFICO",
+    "CODIGO": "AP"
+  },
+  {
+    " NOMBRE": " AUSTRALIA",
+    "CODIGO": "AU"
+  },
+  {
+    " NOMBRE": " AUSTRIA",
+    "CODIGO": "AT"
+  },
+  {
+    " NOMBRE": " AZERBAIJAN",
+    "CODIGO": "AZ"
+  },
+  {
+    " NOMBRE": " BAHAMAS",
+    "CODIGO": "BS"
+  },
+  {
+    " NOMBRE": " BAHRAIN",
+    "CODIGO": "BH"
+  },
+  {
+    " NOMBRE": " BANGLADESH",
+    "CODIGO": "BD"
+  },
+  {
+    " NOMBRE": " BARBADOS",
+    "CODIGO": "BB"
+  },
+  {
+    " NOMBRE": " BELARUS",
+    "CODIGO": "BY"
+  },
+  {
+    " NOMBRE": " BELGICA",
+    "CODIGO": "BE"
+  },
+  {
+    " NOMBRE": " BELICE",
+    "CODIGO": "BZ"
+  },
+  {
+    " NOMBRE": " BENIN",
+    "CODIGO": "BJ"
+  },
+  {
+    " NOMBRE": " BERMUDA",
+    "CODIGO": "BM"
+  },
+  {
+    " NOMBRE": " BHUTAN",
+    "CODIGO": "BT"
+  },
+  {
+    " NOMBRE": " BOLIVIA",
+    "CODIGO": "BO"
+  },
+  {
+    " NOMBRE": " BONAIR",
+    "CODIGO": "BQ"
+  },
+  {
+    " NOMBRE": " BOSNIA AND HERZEGOVINA",
+    "CODIGO": "BA"
+  },
+  {
+    " NOMBRE": " BOTSWANA",
+    "CODIGO": "BW"
+  },
+  {
+    " NOMBRE": " BRASIL",
+    "CODIGO": "BR"
+  },
+  {
+    " NOMBRE": " BRITISH INDIAN OCEAN TERRITORY",
+    "CODIGO": "IO"
+  },
+  {
+    " NOMBRE": " BRUNEI DARUSSALAM",
+    "CODIGO": "BN"
+  },
+  {
+    " NOMBRE": " BULGARIA",
+    "CODIGO": "BG"
+  },
+  {
+    " NOMBRE": " BURKINA FASO",
+    "CODIGO": "BF"
+  },
+  {
+    " NOMBRE": " BURUNDI",
+    "CODIGO": "BI"
+  },
+  {
+    " NOMBRE": " CABO VERDE",
+    "CODIGO": "CV"
+  },
+  {
+    " NOMBRE": " CAMBOYA",
+    "CODIGO": "KH"
+  },
+  {
+    " NOMBRE": " CAMERUN",
+    "CODIGO": "CM"
+  },
+  {
+    " NOMBRE": " CANADA",
+    "CODIGO": "CA"
+  },
+  {
+    " NOMBRE": " CHAD",
+    "CODIGO": "TD"
+  },
+  {
+    " NOMBRE": " CHILE",
+    "CODIGO": "CL"
+  },
+  {
+    " NOMBRE": " CHINA",
+    "CODIGO": "CN"
+  },
+  {
+    " NOMBRE": " CHIPRE",
+    "CODIGO": "CY"
+  },
+  {
+    " NOMBRE": " COCOS (KEELING) ISLANDS",
+    "CODIGO": "CC"
+  },
+  {
+    " NOMBRE": " COLOMBIA",
+    "CODIGO": "CO"
+  },
+  {
+    " NOMBRE": " COMOROS",
+    "CODIGO": "KM"
+  },
+  {
+    " NOMBRE": " CONG",
+    "CODIGO": "CD"
+  },
+  {
+    " NOMBRE": " CONGO",
+    "CODIGO": "CG"
+  },
+  {
+    " NOMBRE": " COOK ISLANDS",
+    "CODIGO": "CK"
+  },
+  {
+    " NOMBRE": " COSTA RICA",
+    "CODIGO": "CR"
+  },
+  {
+    " NOMBRE": " COTE D'IVOIRE",
+    "CODIGO": "CI"
+  },
+  {
+    " NOMBRE": " CROACIA",
+    "CODIGO": "HR"
+  },
+  {
+    " NOMBRE": " CUBA",
+    "CODIGO": "CU"
+  },
+  {
+    " NOMBRE": " CURACAO",
+    "CODIGO": "CW"
+  },
+  {
+    " NOMBRE": " DINAMARCA",
+    "CODIGO": "DK"
+  },
+  {
+    " NOMBRE": " DJIBOUTI",
+    "CODIGO": "DJ"
+  },
+  {
+    " NOMBRE": " DOMINICA",
+    "CODIGO": "DM"
+  },
+  {
+    " NOMBRE": " ECUADOR",
+    "CODIGO": "EC"
+  },
+  {
+    " NOMBRE": " EGIPTO",
+    "CODIGO": "EG"
+  },
+  {
+    " NOMBRE": " EL SALVADOR",
+    "CODIGO": "SV"
+  },
+  {
+    " NOMBRE": " EMIRATOS ARABES UNIDOS",
+    "CODIGO": "AE"
+  },
+  {
+    " NOMBRE": " ERITREA",
+    "CODIGO": "ER"
+  },
+  {
+    " NOMBRE": " ESLOVAQUIA",
+    "CODIGO": "SK"
+  },
+  {
+    " NOMBRE": " ESLOVENIA",
+    "CODIGO": "SI"
+  },
+  {
+    " NOMBRE": " ESPAÑA",
+    "CODIGO": "ES"
+  },
+  {
+    " NOMBRE": " ESTADOS UNIDOS",
+    "CODIGO": "US"
+  },
+  {
+    " NOMBRE": " ESTONIA",
+    "CODIGO": "EE"
+  },
+  {
+    " NOMBRE": " ETIOPIA",
+    "CODIGO": "ET"
+  },
+  {
+    " NOMBRE": " FAROE ISLANDS",
+    "CODIGO": "FO"
+  },
+  {
+    " NOMBRE": " FIJI",
+    "CODIGO": "FJ"
+  },
+  {
+    " NOMBRE": " FILIPINAS",
+    "CODIGO": "PH"
+  },
+  {
+    " NOMBRE": " FINLANDIA",
+    "CODIGO": "FI"
+  },
+  {
+    " NOMBRE": " FRANCIA",
+    "CODIGO": "FR"
+  },
+  {
+    " NOMBRE": " FRENCH POLYNESIA",
+    "CODIGO": "PF"
+  },
+  {
+    " NOMBRE": " GABON",
+    "CODIGO": "GA"
+  },
+  {
+    " NOMBRE": " GAMBIA",
+    "CODIGO": "GM"
+  },
+  {
+    " NOMBRE": " GANA",
+    "CODIGO": "GH"
+  },
+  {
+    " NOMBRE": " GEORGIA",
+    "CODIGO": "GE"
+  },
+  {
+    " NOMBRE": " GIBRALTAR",
+    "CODIGO": "GI"
+  },
+  {
+    " NOMBRE": " GRANADA",
+    "CODIGO": "GD"
+  },
+  {
+    " NOMBRE": " GRECIA",
+    "CODIGO": "GR"
+  },
+  {
+    " NOMBRE": " GROENLANDIA",
+    "CODIGO": "GL"
+  },
+  {
+    " NOMBRE": " GUADELOUPE",
+    "CODIGO": "GP"
+  },
+  {
+    " NOMBRE": " GUAM",
+    "CODIGO": "GU"
+  },
+  {
+    " NOMBRE": " GUATEMALA",
+    "CODIGO": "GT"
+  },
+  {
+    " NOMBRE": " GUERNSEY",
+    "CODIGO": "GG"
+  },
+  {
+    " NOMBRE": " GUINEA",
+    "CODIGO": "GN"
+  },
+  {
+    " NOMBRE": " GUINEA ECUATORIAL",
+    "CODIGO": "GQ"
+  },
+  {
+    " NOMBRE": " GUINEA-BISSAU",
+    "CODIGO": "GW"
+  },
+  {
+    " NOMBRE": " GUYANA",
+    "CODIGO": "GY"
+  },
+  {
+    " NOMBRE": " GUYANA FRANCESA",
+    "CODIGO": "GF"
+  },
+  {
+    " NOMBRE": " HAITI",
+    "CODIGO": "HT"
+  },
+  {
+    " NOMBRE": " HOLANDA",
+    "CODIGO": "NL"
+  },
+  {
+    " NOMBRE": " HOLY SEE (VATICAN CITY STATE)",
+    "CODIGO": "VA"
+  },
+  {
+    " NOMBRE": " HONDURAS",
+    "CODIGO": "HN"
+  },
+  {
+    " NOMBRE": " HUNGRIA",
+    "CODIGO": "HU"
+  },
+  {
+    " NOMBRE": " INDIA",
+    "CODIGO": "IN"
+  },
+  {
+    " NOMBRE": " INDONESIA",
+    "CODIGO": "ID"
+  },
+  {
+    " NOMBRE": " IRA",
+    "CODIGO": "IR"
+  },
+  {
+    " NOMBRE": " IRAQ",
+    "CODIGO": "IQ"
+  },
+  {
+    " NOMBRE": " IRLANDA",
+    "CODIGO": "IE"
+  },
+  {
+    " NOMBRE": " ISLANDIA",
+    "CODIGO": "IS"
+  },
+  {
+    " NOMBRE": " ISLAS (MALVINAS)",
+    "CODIGO": "FK"
+  },
+  {
+    " NOMBRE": " ISLAS CAIMAN",
+    "CODIGO": "KY"
+  },
+  {
+    " NOMBRE": " ISLAS DE PASCUA",
+    "CODIGO": "CX"
+  },
+  {
+    " NOMBRE": " ISLAS SALOMON",
+    "CODIGO": "SB"
+  },
+  {
+    " NOMBRE": " ISLE OF MAN",
+    "CODIGO": "IM"
+  },
+  {
+    " NOMBRE": " ISRAEL",
+    "CODIGO": "IL"
+  },
+  {
+    " NOMBRE": " ITALIA",
+    "CODIGO": "IT"
+  },
+  {
+    " NOMBRE": " JAMAICA",
+    "CODIGO": "JM"
+  },
+  {
+    " NOMBRE": " JAPAN",
+    "CODIGO": "JP"
+  },
+  {
+    " NOMBRE": " JERSEY",
+    "CODIGO": "JE"
+  },
+  {
+    " NOMBRE": " JORDAN",
+    "CODIGO": "JO"
+  },
+  {
+    " NOMBRE": " KAZAKHSTAN",
+    "CODIGO": "KZ"
+  },
+  {
+    " NOMBRE": " KENYA",
+    "CODIGO": "KE"
+  },
+  {
+    " NOMBRE": " KIRIBATI",
+    "CODIGO": "KI"
+  },
+  {
+    " NOMBRE": " KORE",
+    "CODIGO": "KR"
+  },
+  {
+    " NOMBRE": " KUWAIT",
+    "CODIGO": "KW"
+  },
+  {
+    " NOMBRE": " KYRGYZSTAN",
+    "CODIGO": "KG"
+  },
+  {
+    " NOMBRE": " LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+    "CODIGO": "LA"
+  },
+  {
+    " NOMBRE": " LATVIA",
+    "CODIGO": "LV"
+  },
+  {
+    " NOMBRE": " LEBANON",
+    "CODIGO": "LB"
+  },
+  {
+    " NOMBRE": " LESOTHO",
+    "CODIGO": "LS"
+  },
+  {
+    " NOMBRE": " LIBERIA",
+    "CODIGO": "LR"
+  },
+  {
+    " NOMBRE": " LIBYA",
+    "CODIGO": "LY"
+  },
+  {
+    " NOMBRE": " LIECHTENSTEIN",
+    "CODIGO": "LI"
+  },
+  {
+    " NOMBRE": " LITHUANIA",
+    "CODIGO": "LT"
+  },
+  {
+    " NOMBRE": " LUXEMBOURG",
+    "CODIGO": "LU"
+  },
+  {
+    " NOMBRE": " MACAU",
+    "CODIGO": "MO"
+  },
+  {
+    " NOMBRE": " MACEDONIA",
+    "CODIGO": "MK"
+  },
+  {
+    " NOMBRE": " MADAGASCAR",
+    "CODIGO": "MG"
+  },
+  {
+    " NOMBRE": " MALASIA",
+    "CODIGO": "MY"
+  },
+  {
+    " NOMBRE": " MALAWI",
+    "CODIGO": "MW"
+  },
+  {
+    " NOMBRE": " MALDIVES",
+    "CODIGO": "MV"
+  },
+  {
+    " NOMBRE": " MALI",
+    "CODIGO": "ML"
+  },
+  {
+    " NOMBRE": " MALTA",
+    "CODIGO": "MT"
+  },
+  {
+    " NOMBRE": " MARRUECOS",
+    "CODIGO": "MA"
+  },
+  {
+    " NOMBRE": " MARSHALL ISLANDS",
+    "CODIGO": "MH"
+  },
+  {
+    " NOMBRE": " MARTINIQUE",
+    "CODIGO": "MQ"
+  },
+  {
+    " NOMBRE": " MAURITANIA",
+    "CODIGO": "MR"
+  },
+  {
+    " NOMBRE": " MAURITIUS",
+    "CODIGO": "MU"
+  },
+  {
+    " NOMBRE": " MAYOTTE",
+    "CODIGO": "YT"
+  },
+  {
+    " NOMBRE": " MEXICO",
+    "CODIGO": "MX"
+  },
+  {
+    " NOMBRE": " MICRONESI",
+    "CODIGO": "FM"
+  },
+  {
+    " NOMBRE": " MOLDOV",
+    "CODIGO": "MD"
+  },
+  {
+    " NOMBRE": " MONACO",
+    "CODIGO": "MC"
+  },
+  {
+    " NOMBRE": " MONGOLIA",
+    "CODIGO": "MN"
+  },
+  {
+    " NOMBRE": " MONTENEGRO",
+    "CODIGO": "ME"
+  },
+  {
+    " NOMBRE": " MONTSERRAT",
+    "CODIGO": "MS"
+  },
+  {
+    " NOMBRE": " MOZAMBIQUE",
+    "CODIGO": "MZ"
+  },
+  {
+    " NOMBRE": " MYANMAR",
+    "CODIGO": "MM"
+  },
+  {
+    " NOMBRE": " NAMIBIA",
+    "CODIGO": "NA"
+  },
+  {
+    " NOMBRE": " NAURU",
+    "CODIGO": "NR"
+  },
+  {
+    " NOMBRE": " NEPAL",
+    "CODIGO": "NP"
+  },
+  {
+    " NOMBRE": " NICARAGUA",
+    "CODIGO": "NI"
+  },
+  {
+    " NOMBRE": " NIGER",
+    "CODIGO": "NE"
+  },
+  {
+    " NOMBRE": " NIGERIA",
+    "CODIGO": "NG"
+  },
+  {
+    " NOMBRE": " NIUE",
+    "CODIGO": "NU"
+  },
+  {
+    " NOMBRE": " NORFOLK ISLAND",
+    "CODIGO": "NF"
+  },
+  {
+    " NOMBRE": " NORTHERN MARIANA ISLANDS",
+    "CODIGO": "MP"
+  },
+  {
+    " NOMBRE": " NORUEGA",
+    "CODIGO": "NO"
+  },
+  {
+    " NOMBRE": " NUEVA CALEDONIA",
+    "CODIGO": "NC"
+  },
+  {
+    " NOMBRE": " NUEVA ZELANDIA",
+    "CODIGO": "NZ"
+  },
+  {
+    " NOMBRE": " OMAN",
+    "CODIGO": "OM"
+  },
+  {
+    " NOMBRE": " PAKISTAN",
+    "CODIGO": "PK"
+  },
+  {
+    " NOMBRE": " PALAU",
+    "CODIGO": "PW"
+  },
+  {
+    " NOMBRE": " PALESTINA",
+    "CODIGO": "PS"
+  },
+  {
+    " NOMBRE": " PANAMA",
+    "CODIGO": "PA"
+  },
+  {
+    " NOMBRE": " PAPUA NEW GUINEA",
+    "CODIGO": "PG"
+  },
+  {
+    " NOMBRE": " PARAGUAY",
+    "CODIGO": "PY"
+  },
+  {
+    " NOMBRE": " PERU",
+    "CODIGO": "PE"
+  },
+  {
+    " NOMBRE": " PITCAIRN ISLANDS",
+    "CODIGO": "PN"
+  },
+  {
+    " NOMBRE": " POLONIA",
+    "CODIGO": "PL"
+  },
+  {
+    " NOMBRE": " PORTUGAL",
+    "CODIGO": "PT"
+  },
+  {
+    " NOMBRE": " PUERTO RICO",
+    "CODIGO": "PR"
+  },
+  {
+    " NOMBRE": " QATAR",
+    "CODIGO": "QA"
+  },
+  {
+    " NOMBRE": " REINO UNIDO",
+    "CODIGO": "GB"
+  },
+  {
+    " NOMBRE": " REPUBLICA CENTRAL DE AFRICA",
+    "CODIGO": "CF"
+  },
+  {
+    " NOMBRE": " REPUBLICA CHECA",
+    "CODIGO": "CZ"
+  },
+  {
+    " NOMBRE": " REPUBLICA DOMINICANA",
+    "CODIGO": "DO"
+  },
+  {
+    " NOMBRE": " REUNION",
+    "CODIGO": "RE"
+  },
+  {
+    " NOMBRE": " ROMANIA",
+    "CODIGO": "RO"
+  },
+  {
+    " NOMBRE": " RUANDA",
+    "CODIGO": "RW"
+  },
+  {
+    " NOMBRE": " RUSIA",
+    "CODIGO": "RU"
+  },
+  {
+    " NOMBRE": " SAINT BARTHELEMY",
+    "CODIGO": "BL"
+  },
+  {
+    " NOMBRE": " SAINT HELENA",
+    "CODIGO": "SH"
+  },
+  {
+    " NOMBRE": " SAINT KITTS AND NEVIS",
+    "CODIGO": "KN"
+  },
+  {
+    " NOMBRE": " SAINT PIERRE AND MIQUELON",
+    "CODIGO": "PM"
+  },
+  {
+    " NOMBRE": " SAINT VINCENT AND THE GRENADINES",
+    "CODIGO": "VC"
+  },
+  {
+    " NOMBRE": " SAMOA",
+    "CODIGO": "WS"
+  },
+  {
+    " NOMBRE": " SAN MARINO",
+    "CODIGO": "SM"
+  },
+  {
+    " NOMBRE": " SAN MARTIN",
+    "CODIGO": "MF"
+  },
+  {
+    " NOMBRE": " SANTA LUCIA",
+    "CODIGO": "LC"
+  },
+  {
+    " NOMBRE": " SAO TOME AND PRINCIPE",
+    "CODIGO": "ST"
+  },
+  {
+    " NOMBRE": " SENEGAL",
+    "CODIGO": "SN"
+  },
+  {
+    " NOMBRE": " SERBIA",
+    "CODIGO": "RS"
+  },
+  {
+    " NOMBRE": " SEYCHELLES",
+    "CODIGO": "SC"
+  },
+  {
+    " NOMBRE": " SIERRA LEONE",
+    "CODIGO": "SL"
+  },
+  {
+    " NOMBRE": " SINGAPUR",
+    "CODIGO": "SG"
+  },
+  {
+    " NOMBRE": " SINT MAARTEN (DUTCH PART)",
+    "CODIGO": "SX"
+  },
+  {
+    " NOMBRE": " SIRIA REPUBLICA ARABE",
+    "CODIGO": "SY"
+  },
+  {
+    " NOMBRE": " SOMALIA",
+    "CODIGO": "SO"
+  },
+  {
+    " NOMBRE": " SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+    "CODIGO": "GS"
+  },
+  {
+    " NOMBRE": " SRI LANKA",
+    "CODIGO": "LK"
+  },
+  {
+    " NOMBRE": " SUDAFRICA",
+    "CODIGO": "ZA"
+  },
+  {
+    " NOMBRE": " SUDAN",
+    "CODIGO": "SD"
+  },
+  {
+    " NOMBRE": " SUDAN DEL SUR",
+    "CODIGO": "SS"
+  },
+  {
+    " NOMBRE": " SUECIA",
+    "CODIGO": "SE"
+  },
+  {
+    " NOMBRE": " SUIZA",
+    "CODIGO": "CH"
+  },
+  {
+    " NOMBRE": " SURINAM",
+    "CODIGO": "SR"
+  },
+  {
+    " NOMBRE": " SVALBARD AND JAN MAYEN",
+    "CODIGO": "SJ"
+  },
+  {
+    " NOMBRE": " SWAZILAND",
+    "CODIGO": "SZ"
+  },
+  {
+    " NOMBRE": " TAILANDIA",
+    "CODIGO": "TH"
+  },
+  {
+    " NOMBRE": " TAIWAN",
+    "CODIGO": "TW"
+  },
+  {
+    " NOMBRE": " TAJIKISTAN",
+    "CODIGO": "TJ"
+  },
+  {
+    " NOMBRE": " TANZANIA",
+    "CODIGO": "TZ"
+  },
+  {
+    " NOMBRE": " TIMOR-LESTE",
+    "CODIGO": "TL"
+  },
+  {
+    " NOMBRE": " TOGO",
+    "CODIGO": "TG"
+  },
+  {
+    " NOMBRE": " TOKELAU",
+    "CODIGO": "TK"
+  },
+  {
+    " NOMBRE": " TONGA",
+    "CODIGO": "TO"
+  },
+  {
+    " NOMBRE": " TRINIDAD Y TOBAGO",
+    "CODIGO": "TT"
+  },
+  {
+    " NOMBRE": " TUNISIA",
+    "CODIGO": "TN"
+  },
+  {
+    " NOMBRE": " TURKMENISTAN",
+    "CODIGO": "TM"
+  },
+  {
+    " NOMBRE": " TURKS AND CAICOS ISLANDS",
+    "CODIGO": "TC"
+  },
+  {
+    " NOMBRE": " TURQUIA",
+    "CODIGO": "TR"
+  },
+  {
+    " NOMBRE": " TUVALU",
+    "CODIGO": "TV"
+  },
+  {
+    " NOMBRE": " UCRANIA",
+    "CODIGO": "UA"
+  },
+  {
+    " NOMBRE": " UGANDA",
+    "CODIGO": "UG"
+  },
+  {
+    " NOMBRE": " UNITED STATES MINOR OUTLYING ISLANDS",
+    "CODIGO": "UM"
+  },
+  {
+    " NOMBRE": " URUGUAY",
+    "CODIGO": "UY"
+  },
+  {
+    " NOMBRE": " UZBEKISTAN",
+    "CODIGO": "UZ"
+  },
+  {
+    " NOMBRE": " VANUATU",
+    "CODIGO": "VU"
+  },
+  {
+    " NOMBRE": " VENEZUELA",
+    "CODIGO": "VE"
+  },
+  {
+    " NOMBRE": " VIETNAM",
+    "CODIGO": "VN"
+  },
+  {
+    " NOMBRE": " VIRGIN ISLAND",
+    "CODIGO": "VG"
+  },
+  {
+    " NOMBRE": " WALLIS AND FUTUNA",
+    "CODIGO": "WF"
+  },
+  {
+    " NOMBRE": " WESTERN SAHARA",
+    "CODIGO": "EH"
+  },
+  {
+    " NOMBRE": " YEMEN",
+    "CODIGO": "YE"
+  },
+  {
+    " NOMBRE": " ZAMBIA",
+    "CODIGO": "ZM"
+  },
+  {
+    " NOMBRE": " ZIMBABWE",
+    "CODIGO": "ZW"
+  }
+]
