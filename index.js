@@ -1,5 +1,7 @@
 const paisesDet = require('./data/Paises_Detail.json')
 const ciudadesDet = require('./data/Ciudades.json')
+const fetch = require('node-fetch');
+
 var listapaises = [];
 var listacurrencies = [];
 var listalanguages = [];
@@ -31,10 +33,12 @@ listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => ({
     lng: listapaises[alpha2Code] ? listapaises[alpha2Code].lng : 0,
 }));
 
-let arraypaises = Object.entries(listapaises);
-console.log(arraypaises);
+// let arraypaises = Object.entries(listapaises);
+// console.log(arraypaises);
 //console.log(listaciudades.filter(x => x.alpha2Code == "BO"))
 //console.log(listacurrencies)
 //console.log(listalanguages);
 //console.log(listatranslations.filter(x=>x.countryId == 26));
-
+// fetch('http://tucomunidadvirtual.com/')
+//     .then(res => res.text())
+//     .then(body => console.log(body));
