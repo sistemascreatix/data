@@ -5,16 +5,17 @@ const fetch = require('node-fetch');
 var listapaises = [];
 var listacurrencies = [];
 var listalanguages = [];
-var listatranslations = []
-var Paises = paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericCode, currencies, languages, translations }, index) => {
+var listatranslations = [];
+paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericCode, currencies, languages, translations }, index) => {
 
     [lat, lng] = latlng || [0, 0];
     listapaises[alpha2Code] = { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode };
 
-    Object.entries(translations).map(([key, value]) => {
-        listatranslations.push({ 'countryId': index, key, value })
+    let nuevatranslations = Object.entries(translations).map(([key, value]) =>  {
+        return { 'countryId': index, key, value };
     })
-
+    listatranslations = [...listatranslations,...nuevatranslations]
+    
     currencies.map(({ code, name, symbol }) => {
         listacurrencies[code] = { 'countryId': index, code, name, symbol }
     })
@@ -22,7 +23,6 @@ var Paises = paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezo
     languages.map(({ iso639_1, iso639_2, name, nativeName }) => {
         listalanguages[iso639_1] = { 'countryId': index, iso639_1, iso639_2, name, nativeName }
     })
-
 })
 
 listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => ({
@@ -38,7 +38,7 @@ listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => ({
 //console.log(listaciudades.filter(x => x.alpha2Code == "BO"))
 //console.log(listacurrencies)
 //console.log(listalanguages);
-//console.log(listatranslations.filter(x=>x.countryId == 26));
+console.log(listatranslations);
 // fetch('http://tucomunidadvirtual.com/')
 //     .then(res => res.text())
 //     .then(body => console.log(body));
