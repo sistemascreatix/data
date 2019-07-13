@@ -11,11 +11,11 @@ paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericC
     [lat, lng] = latlng || [0, 0];
     listapaises[alpha2Code] = { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode };
 
-    let nuevatranslations = Object.entries(translations).map(([key, value]) =>  {
+    let nuevatranslations = Object.entries(translations).map(([key, value]) => {
         return { 'countryId': index, key, value };
     })
-    listatranslations = [...listatranslations,...nuevatranslations]
-    
+    listatranslations = [...listatranslations, ...nuevatranslations]
+
     currencies.map(({ code, name, symbol }) => {
         listacurrencies[code] = { 'countryId': index, code, name, symbol }
     })
@@ -25,13 +25,19 @@ paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericC
     })
 })
 
-listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => ({
-    countryId: listapaises[alpha2Code] ? listapaises[alpha2Code].Id : 0,
+listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => (listapaises[alpha2Code] ? {
+    countryId: listapaises[alpha2Code].Id,
     name: CIUDAD,
     alpha2Code,
-    lat: listapaises[alpha2Code] ? listapaises[alpha2Code].lat : 0,
-    lng: listapaises[alpha2Code] ? listapaises[alpha2Code].lng : 0,
-}));
+    lat: listapaises[alpha2Code].lat,
+    lng: listapaises[alpha2Code].lng,
+    } : {
+        countryId: 0,
+        name: CIUDAD,
+        alpha2Code,
+        lat: 0,
+        lng: 0,
+    }));
 
 // let arraypaises = Object.entries(listapaises);
 // console.log(arraypaises);
