@@ -1,5 +1,5 @@
-const paisesDet = require('./data/Paises_Detail.json')
-const ciudadesDet = require('./data/Ciudades.json')
+const paisesDet = require('../../data/Paises_Detail.json')
+const ciudadesDet = require('../../data/Ciudades.json')
 // module.exports = exports = {}
 var listapaises = [];
 var listacurrencies = [];
@@ -7,16 +7,18 @@ var listapaiscurrencies = [];
 var listalanguages = [];
 var listapaisLanguages = [];
 var listatranslations = [];
+var listapaises2 = [];
 var counterLang = 0;
 var counterCurr = 0;
 paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericCode, currencies, languages, translations }, index) => {
-
+    index++
     [lat, lng] = latlng || [0, 0];
-    listapaises[alpha2Code] = { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode };
+    listapaises.push( { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode });
+    listapaises2[alpha2Code]= { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode };
 
     let nuevatranslations = Object.entries(translations).map(([key, value]) => {
         return { 'countryId': index, key, value };
-    })
+    });
     listatranslations = [...listatranslations, ...nuevatranslations]
 
     currencies.map(({ code, name, symbol }) => {
@@ -44,23 +46,20 @@ paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericC
     })
 })
 
-listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => (listapaises[alpha2Code] ? {
-    countryId: listapaises[alpha2Code].Id,
+listaciudades = ciudadesDet.map(({ CIUDAD, alpha2Code }) => (listapaises2[alpha2Code] ? {
+    countryId: listapaises2[alpha2Code].Id,
     name: CIUDAD,
     alpha2Code,
-    lat: listapaises[alpha2Code].lat,
-    lng: listapaises[alpha2Code].lng,
-} : {
-        countryId: 0,
-        name: CIUDAD,
-        alpha2Code,
-        lat: 0,
-        lng: 0,
-    }));
+    lat: listapaises2[alpha2Code].lat,
+    lng: listapaises2[alpha2Code].lng,
+} : {}));
 
-    exports.listapaises = listapaises;
-    exports.listacurrencies = listacurrencies;
-    exports.listapaiscurrencies = listapaiscurrencies;
-    exports.listalanguages = listalanguages;
-    exports.listapaisLanguages = listapaisLanguages;
-    exports.listatranslations = listatranslations;
+
+exports.listapaises = listapaises;
+exports.listacurrencies = listacurrencies;
+exports.listapaiscurrencies = listapaiscurrencies;
+exports.listalanguages = listalanguages;
+exports.listapaisLanguages = listapaisLanguages;
+exports.listatranslations  = listatranslations ;
+exports.listaciudades = listaciudades;
+

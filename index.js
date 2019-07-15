@@ -1,5 +1,22 @@
-    var writeFile = require('./src/writeFile')
-    writeFile.writeFile('./Files/tmptxt.txt');
+var writeFile = require('./src/writeFile')
+const objectToCSV = require('./src/objectToCSV');
+const {listapaises,
+       listacurrencies,
+       listapaiscurrencies,
+       listalanguages,
+       listapaisLanguages,
+       listatranslations,
+        listaciudades} = require('./src/parser');
+
+       writeFile.writeFile('./Files/paises.csv',objectToCSV.objectToCSV(listapaises));
+       writeFile.writeFile('./Files/currencies.csv',objectToCSV.objectToCSV(listacurrencies));
+       writeFile.writeFile('./Files/paiscurrencies.csv',objectToCSV.objectToCSV(listapaiscurrencies));
+       writeFile.writeFile('./Files/languages.csv',objectToCSV.objectToCSV(listalanguages));
+       writeFile.writeFile('./Files/paisLanguages.csv',objectToCSV.objectToCSV(listapaisLanguages));
+       writeFile.writeFile('./Files/translations.csv',objectToCSV.objectToCSV(listatranslations));
+       writeFile.writeFile('./Files/ciudades.csv',objectToCSV.objectToCSV(listaciudades));
+
+
     //  Show data 
 // let filtercode = 'BO';
 // let pais = listapaises[filtercode];
