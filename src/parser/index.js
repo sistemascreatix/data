@@ -10,11 +10,11 @@ var listatranslations = [];
 var listapaises2 = [];
 var counterLang = 0;
 var counterCurr = 0;
-paisesDet.map(({ name, flag, nativeName, alpha2Code, latlng, timezones, numericCode, currencies, languages, translations }, index) => {
+paisesDet.map(({ name, flag, nativeName,capital,region,subregion, alpha2Code, latlng, timezones, numericCode, currencies, languages, translations }, index) => {
     index++
     [lat, lng] = latlng || [0, 0];
-    listapaises.push( { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode });
-    listapaises2[alpha2Code]= { 'Id': index, name, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode };
+    listapaises.push( { 'Id': index, name,capital,region,subregion, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode });
+    listapaises2[alpha2Code]= { 'Id': index, name,capital,region,subregion, flag, nativeName, alpha2Code, lat, lng, timezones: JSON.stringify(timezones), numericCode };
 
     let nuevatranslations = Object.entries(translations).map(([key, value]) => {
         return { 'countryId': index, key, value };
