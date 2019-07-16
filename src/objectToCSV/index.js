@@ -6,7 +6,7 @@ exports.objectToCSV = function(data){
 
     // loop over the rows
     const values = data.map((row)=> {
-       return headers.map(header => `"${`${row[header]}`.replace(/"/g,'\\"')}"`).join(',')
+       return headers.map(header => `"${`${row[header]}`.replace(/"/g,'')}"`).join(',')
     });
     csvRows = [...csvRows,...values]
     return csvRows.join('\r\n');
